@@ -18,18 +18,17 @@ if ! [[ -x "$(command -v wget)" && -x "$(command -v curl)" ]]; then
 else
 	echo "Great, lets go"
 fi
-exit
 echo ""
 echo "=========================================================="
 echo ""
 echo "STEP 1: Setup your bash  profile\n"
-wget https://raw.githubusercontent.com/koulali/CEG2722/main/startup/bashrc ~/.bashrc
+wget -O ~/.bashrc https://raw.githubusercontent.com/koulali/CEG2722/main/startup/bashrc
 echo " done..."
 echo ""
 echo "=========================================================="
 echo ""
 echo "STEP 2: Download micro text editor\n"
-mkdir ~/bin/
+mkdir -p ~/bin/
 curl https://getmic.ro | bash
 mv ./micro ~/bin/
 echo " done..."
@@ -37,11 +36,11 @@ echo ""
 echo "=========================================================="
 echo ""
 echo "STEP 3: Download CEG2722 practicals\n"
-mkdir ~/ceg2722
-mkdir ~/ceg2722/practicals/
-cd ~/ceg2722/practicals/
+mkdir -p ~/ceg2722
+cd ~/ceg2722/
 wget https://raw.githubusercontent.com/koulali/CEG2722/main/startup/ceg2722_data.tar.gz
 tar -xvzf ceg2722_data.tar.gz
+rm -f ceg2722_data.tar.gz
 cd ~/
 echo " done..."
 echo ""
@@ -49,8 +48,9 @@ echo "=========================================================="
 echo ""
 echo "STEP 4: Download TEQC\n"
 wget https://www.unavco.org/software/data-processing/teqc/development/teqc_CentOSLx86_64d.zip
-gunzip teqc_CentOSLx86_64d.zip
+unzip teqc_CentOSLx86_64d.zip
 mv teqc ~/bin/
+rm -f teqc_CentOSLx86_64d.zip
 echo " done..."
 echo "=========================================================="
 echo ""
@@ -62,5 +62,3 @@ rm -rf RNXCMP_4.0.8_Linux_x86_64bit.tar.gz ./RNXCMP_4.0.8_Linux_x86_64bit/
 echo " done..."
 echo "=========================================================="
 echo "That's All Folks!"
-
-
