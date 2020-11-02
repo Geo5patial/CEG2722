@@ -1,0 +1,44 @@
+.container{
+display: flex;
+}
+.col-right{
+   	margin: 10px 0 15px 0;
+	float: right;
+	text-align: left;
+	z-index:-10;
+	width:50%;
+	font-size: 0.85em;
+	line-height: 1.5;
+}
+.col-left{
+	margin: 10px 0 15px 20px;
+	text-align: left;
+	float: left;
+	z-index:-10;
+	width:48%;
+	font-size: 0.85em;
+	line-height: 1.5; 
+}
+
+#dark_back {
+	background-color: rgba(0, 0, 0, 0.9);
+	color: #fff;
+	padding: 20px;
+}
+
+.pre {
+    width: 100%;
+    margin: 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    code {
+        padding: 3%;
+        max-height: none;
+        font-size: @basefontsize * 0.5;
+    }
+}
+
+.reveal {
+  font-family: sans-serif;
+  font-size: 38px;
+  font-weight: normal;
+}
