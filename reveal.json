@@ -1,0 +1,11 @@
+{
+  "controls": true,
+  "progress": true,
+  "transition": "none",
+  "loadIcons": true,
+  "backgroundTransition": "none",
+  "transitionSpeed:": "default",
+  "markdown": {
+    "smartypants": true
+  }
+}

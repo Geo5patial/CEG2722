@@ -2,8 +2,6 @@
 
 Part 2 of the module Data Analysis 2 : Introduction to Linux data processing.
 
-The slides and practicals used for each lecture are available here.
-
 ## Lectures
 
 [slides](http://koulali.github.io/CEG2722/#/)
