@@ -11,7 +11,7 @@ Part 2 of the module Data Analysis 2 : Introduction to Linux data processing.
 Login to your university unix server and run the following script:
 
 ```bash
-wget https://raw.githubusercontent.com/koulali/CEG2722/gh-pages/startup/make_ceg2722.sh
+wget https://raw.githubusercontent.com/koulali/CEG2722/main/startup/make_ceg2722.sh
 chmod +x make_ceg2722.sh
 ./make_ceg2722.sh
 ```
