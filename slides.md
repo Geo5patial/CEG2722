@@ -65,6 +65,24 @@ Geospatial
 
 ---
 
+### ACTIVITIES AND ASSESSMENT
+
+<div class="heatMap" style="width:100%">
+
+| Date | Activity |     |
+| ---- | ---- | ---- |
+| Monday, 23 Nov | Session 1 | Aidan/Practical 1 |
+| Wednesday, 25 Nov | Session 2 |  |
+| Monday, 30 Nov | Session 3 | Practical 2,3 |
+| Wednesday, 2 Dec | Session 4 |  |
+| Wednesday, 9 Dec | Practical 4,5 |  |
+| Wednesday, 16 Dec | Practical 6,7 | Revision |
+
+</div>
+
+***Optional*** : Saturdays morning 10:00am Q/A session
+---
+
 ### What is Linux ?
 
 <div class="container">
@@ -1766,3 +1784,67 @@ This presentation is licensed under a
 
 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
+
+<style>
+.container{
+display: flex;
+}
+.col-right{
+   	margin: 10px 0 15px 0;
+	float: right;
+	text-align: left;
+	z-index:-10;
+	width:50%;
+	font-size: 0.85em;
+	line-height: 1.5;
+}
+.col-left{
+	margin: 10px 0 15px 20px;
+	text-align: left;
+	float: left;
+	z-index:-10;
+	width:48%;
+	font-size: 0.85em;
+	line-height: 1.5; 
+}
+
+#dark_back {
+	background-color: rgba(0, 0, 0, 0.9);
+	color: #fff;
+	padding: 20px;
+}
+
+.pre {
+    width: 100%;
+    margin: 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    code {
+        padding: 3%;
+        max-height: none;
+        font-size: @basefontsize * 0.5;
+    }
+}
+
+.reveal {
+  font-family: sans-serif;
+  font-size: 38px;
+  font-weight: normal;
+}
+
+.heatMap {
+    width: 70%;
+    text-align: center;
+}
+.heatMap th {
+background: grey;
+word-wrap: break-word;
+text-align: center;
+}
+.heatMap tr:nth-child(1) { background: #0D3D56; }
+.heatMap tr:nth-child(2) { background: #107856; }
+.heatMap tr:nth-child(3) { background: #0D3D56; }
+.heatMap tr:nth-child(4) { background: #0D3D56; }
+.heatMap tr:nth-child(5) { background: #107856; }
+.heatMap tr:nth-child(6) { background: #107856; }
+
+</style>
