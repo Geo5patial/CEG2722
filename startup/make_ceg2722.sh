@@ -22,7 +22,12 @@ echo ""
 echo "=========================================================="
 echo ""
 echo "STEP 1: Setup your bash  profile\n"
-wget -O ~/.bashrc https://raw.githubusercontent.com/koulali/CEG2722/main/startup/bashrc
+if [ -e "~/.bashrc" ]; then
+    echo "export PATH=$PATH:~/bin/" >> ~/.bashrc
+else
+    echo "create environment variables"
+    wget -O ~/.bashrc https://raw.githubusercontent.com/koulali/CEG2722/main/startup/bashrc
+fi 
 echo " done..."
 echo ""
 echo "=========================================================="
