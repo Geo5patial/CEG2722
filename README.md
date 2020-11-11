@@ -31,7 +31,7 @@ reveal-md slides.md --css style.css
 
 to generate a static version
 ```
-reveal-md slides.md --css style.css --static docs --static-dirs=img,pkg
+reveal-md slides.md --static docs --static-dirs=img,pkg
 ```
 
 Use make serve to start a server at http://localhost:8000. The page will automatically reload the page when you update any of the files in the repository.

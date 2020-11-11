@@ -80,7 +80,7 @@ Geospatial
 
 </div>
 
-***Optional*** : Saturdays morning 10:00am Q/A session
+***Optional*** : Fridays afternoon 16:00pm Q/A session
 ---
 
 ### What is Linux ?
