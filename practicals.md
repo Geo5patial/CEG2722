@@ -1,8 +1,8 @@
-# CEG2722 PRACTICAL 5 (Working in Linux)
+# CEG2722 PRACTICAL 2 (Working in Linux)
 
 By default the Linux terminal executes commands in your home directory. We created a script which will copy all the data you need for all the practicals (1-6). After login to your account run the following command lines.
 ```bash
-wget https://raw.githubusercontent.com/koulali/CEG2722/gh-pages/startup/make_ceg2722.sh
+wget https://raw.githubusercontent.com/koulali/CEG2722/main/startup/make_ceg2722.sh
 chmod +x make_ceg2722.sh
 ./make_ceg2722.sh
 ```
