@@ -757,9 +757,7 @@ paste file1.txt file2.txt
 
 ```bash
 # the command expand here converts tabs to spaces
-expand datafile > temp1
-
-cut -c9-20 temp1 > temp2
+cut -c1-2 temp1 > temp2
 
 paste timetags temp2 > outfile
 ```
@@ -767,7 +765,7 @@ paste timetags temp2 > outfile
 * The above creates unnecessary files, so instead we can use piplies <font color="yellow">"|"</font>
 
 ```bash
-expand datafile | cut -c9-20 | paste timetags - >outfile
+cut -c1-2 | paste timetags - >outfile
 ```
 <div class="bottom-left" style="font-size: 30px";>
 
@@ -1009,7 +1007,7 @@ done
 
 #### <font color="#84FC9B">Example 10</font>
 
-* Which day of the site "MORP" GPS data files has the wrong antenna?
+* Which day of the site "MORP" GPS data files has the wrong receiver model?
 
 ```bash
 cd ~/ceg2722/examples/ex3
