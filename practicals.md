@@ -29,7 +29,7 @@ chmod +x make_ceg2722.sh
 
 ```
 
-The GNSS data used for the practicals is located under directories with the naming convention: `~/ceg2722/practicals/data/rinex/YYYY/DDD/`
+The GNSS data used for the practicals is located under directories with the naming convention: `~/ceg2722/ceg2722_data/data/rinex/YYYY/DDD/`
 
 where `YYYY` is the 4-digit year, and `DDD` is the 3-digit day of year (January 1st is 001).  Under each day, subdirectories `YYd`, `YYg`, `YYm` and `YYn` contain the observation, GLONASS orbit, meteorological and GPS orbit data files respectively, where `YY` is the 2-digit year.  
 
@@ -177,7 +177,7 @@ In the above example, only the file thisfile will be extracted (if indeed it exi
 
 **Question 4.1**
 
-Create a subdirectory `~/ceg2722/gipsy-output/` (the `~` without a username refers to *your* home directory) and extract the contents of the tarfile `~/ceg2722/data/nslg_feb2014_tdp.tgz` there.  It contains a number of output TDP (time dependent parameter) files from the GIPSY scientific GPS processing software for site NSLG (at the North Shields tide gauge).  
+Create a subdirectory `~/ceg2722/gipsy-output/` (the `~` without a username refers to *your* home directory) and extract the contents of the tarfile `~/ceg2722/ceg2722_data/data/nslg_feb2014_tdp.tgz` there.  It contains a number of output TDP (time dependent parameter) files from the GIPSY scientific GPS processing software for site NSLG (at the North Shields tide gauge).  
 
 *How many files are there, and how many lines in each?*
 
